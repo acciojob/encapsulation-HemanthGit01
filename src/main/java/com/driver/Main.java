@@ -7,5 +7,10 @@ public class Main {
         // Step 4: Try to access and set the private variable directly
         // obj.name = "John"; // Error: 'name' has private access in RWOnly
         // System.out.println(obj.name); // Error: 'name' has private access in RWOnly
+         // Step 6: Set value using setter
+        obj.setName("John");
+
+        // Step 6: Access value using getter
+        System.out.println(obj.getName()); // Output: John
     }
 }
